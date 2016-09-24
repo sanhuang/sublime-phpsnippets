@@ -1,7 +1,7 @@
-Additional PHP Snippets For Sublime Text 2
+Additional PHP Snippets(ST3) For Personalwork
 ==========================================
 
-[Sublime Text 2](http://www.sublimetext.com/2) already ships with a lot of snippets for writing PHP code. This is a collection of additional snippets contributed by the PHP community.
+Fork from [Additional PHP Snippets](https://github.com/stuartherbert/sublime-phpsnippets) append snippents for my general purpose using.
 
 Installation
 ------------
@@ -27,7 +27,13 @@ __ For PHP files:__
 * __php-newbsd__: insert the new BSD license as a PHP docblock
 * __php-section-comment__: insert a prominent comment to help break up the sections of your class
 
-Contributions Welcome
+Task Todo
 ---------------------
 
-Requests for features, and pull requests with patches, are most welcome :)
+* 將php-section-comment內格式香修改用以便可以直接支援cmd+\方式於註解區塊內換行
+> /*==================================================================
+>  *
+>  *
+>  *-----------------------------------------------------------------*/
+
+* 整合之前所做的幾個php snippents放入此一專案。
